@@ -1,0 +1,8 @@
+{:paths ["src"]
+ :deps {org.clojure/clojure {:mvn/version "1.10.2"}
+        org.clojure/tools.logging {:mvn/version "1.1.0"}
+        fundingcircle/jackdaw {:mvn/version "0.7.7"}
+        metosin/jsonista {:mvn/version "0.3.1"}}
+ :mvn/repos {"confluent" {:url "http://packages.confluent.io/maven/"}}
+ :aliases {:test {:extra-paths ["test"]
+                  :extra-deps {org.clojure/test.check {:mvn/version "1.1.0"}}}}}
